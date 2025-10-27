@@ -1,0 +1,170 @@
+/* span { 
+    color: aqua;
+}
+
+#span1{
+    color: purple;
+}
+#span2{
+    color: orange;
+}
+.span3{
+    color: indianred;
+} */
+#box{
+    background-color: black;
+    width: 100px;
+    height: 50px;
+    margin: 20px 10px 20px 0;
+    border: 10px double red;
+    border-radius: 100px 40px 40px 100px;
+}
+#box1{
+    background-color: brown;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.new-box{
+    width: 50%;
+    height: 300px;
+    background-color: red;
+   border-radius: 10px;
+   justify-self: center; 
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.inner-box{
+    width: 30%;
+    height: 100px;
+    background-color: black;
+    margin-right: 20px;
+    align-items: center;
+}
+.big-div{
+display: flex;
+justify-content: space-around;
+align-items: center;
+padding: 20px;
+gap: 20px;
+background-color: aquamarine;
+}
+.inner-div{
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+    background-color: #f2f2f2;
+    padding: 30px;
+    line-height: 15px;
+
+}
+.heading{
+    font-size: 20px;
+    color: black;
+}
+.text{
+    font-size: 20px;
+    color: black;
+}
+
+.color-container{
+    width: 100%;
+    height: 500px;
+    border-radius: 20px;
+    background: linear-gradient(45deg, green, purple, red, blue, orange, white);
+    margin: 100px 0;
+}
+.step{
+    background: linear-gradient(purple, green);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-size: 100px;
+}
+.image-container{
+    width: 500px;
+    height: 400px;
+    border-radius: 20px;
+    background-color: rgb(0, 0, 0, 0.5);
+    background-blend-mode: overlay;
+    background-image: url(images/IMG_20230207_112035_440.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.welcome{
+    color: white;
+    font-size: 20px;
+}
+
+.content{
+    margin: 100px;
+}
+.content h4 {
+    font-size: 40px;
+}
+.content span  {
+    color: grey;
+}
+.pill{
+    width: 100px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+.pill:hover{
+    background-color: black;
+    width: 150px;
+    transition-duration: 2s;
+}
+textarea{
+    width: 400px;
+    height: 100px;
+    cursor: pointer;
+}
+textarea:focus{
+    outline: none;
+    /* border:transparent; */
+    border: 1px solid red;
+}
+.click{
+    width: 100px;
+    padding:20px;
+    background-color: purple;
+    color:azure;
+    border: transparent;
+    border-radius: 20px;
+    /* cursor: pointer; */
+    /* cursor: crosshair; */
+    transform: rotate(360deg);
+    transition-duration: infinite;
+}
+.click:active{
+    background-color: black;
+    width: 80px;
+}
+.click:hover{
+    /* transform: translateY(-100px); */
+    /* transform: skew(30deg) */
+    transform: scale(0.5)
+}
+body{
+    font-family: ;
+}
+.rotating{
+    width: 200px;
+    height: 100px;
+    background-color: black;
+    transform: rotate(0deg);
+    animation: rotate 1s infinite;
+}
+@keyframes rotate{
+    to{
+        transform: rotateY(360deg);
+        animation: infinite;
+    }
+}

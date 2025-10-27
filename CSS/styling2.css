@@ -1,0 +1,159 @@
+.header  img{
+    height: 30px;
+    width: 30px;
+    transform: rotate(0deg);
+    animation: rotation 5s infinite;
+}
+@keyframes rotation{
+    to{
+        transform: rotate(360deg);
+    }
+}
+.chap-1{
+    color: white;
+    font-size: 15px;
+}
+.header span{
+    color: blue;
+    font-size: 40px;
+}
+.naira-image{
+    background: url(images/100naira.jpg);
+    height: 500px;
+    width: 50%;
+    background-repeat: no-repeat;
+    display: flex;
+}
+body{
+    background-color: black;
+}
+.bar{
+width: 100%;
+height: 365px;
+margin-bottom: 20px;
+align-items: end;
+display: flex;
+}
+.bluebox{
+width: 200px;
+height:150px;
+background-color: blue;
+opacity: 0.5;
+display: flex;
+cursor: pointer;
+}
+.bluebox:hover{
+    width: 220px;
+    height: 160px;
+    transition-duration: 0.2s;
+}
+.bluebox span{
+    display: flex;
+    align-content: center;
+    color: white;
+    font-size: 50px;
+    align-items: end;
+
+}
+.purplebox{
+width: 200px;
+height:170px;
+background-color: purple;
+opacity: 0.5;
+display: flex;
+}
+.purplebox:hover{
+    width: 220px;
+    height: 200px;
+    transition-duration: 0.2s;
+}
+.purplebox span{
+    display: flex;
+    align-content: center;
+    color: white;
+    font-size: 50px;
+    align-items: end;
+
+}
+.greenbox{
+width: 200px;
+height:130px;
+background-color: green;
+opacity: 0.5;
+display: flex;
+}
+.greenbox:hover{
+    width: 220px;
+    height: 170px;
+    transition-duration: 0.2s;
+}
+.greenbox span{
+    display: flex;
+    align-content: center;
+    color: white;
+    font-size: 50px;
+    align-items: end;
+}
+.bluebox2{
+width: 200px;
+height:100px;
+background-color: blue;
+opacity: 0.5;
+display: flex;
+}
+.bluebox2:hover{
+    width: 220px;
+    height: 120px;
+    transition-duration: 0.2s;
+}
+.bluebox2 span{
+    display: flex;
+    align-content: center;
+    color: white;
+    font-size: 50px;
+    align-items: end;
+    padding: 10px;
+
+}
+.purplebox2{
+width: 200px;
+height:80px;
+background-color: purple;
+opacity: 0.5;
+display: flex;
+}
+.purplebox2:hover{
+    width: 220px;
+    height: 120px;
+    transition-duration: 0.2s;
+}
+.purplebox2 span{
+    display: flex;
+    align-content: center;
+    color: white;
+    font-size: 50px;
+    align-items: end;
+    padding: 10px;
+
+}
+.yellowbox{
+width: 200px;
+height:60px;
+background-color: yellow;
+opacity: 0.5;
+display: flex;
+}
+.yellowbox:hover{
+    width: 220px;
+    height: 80px;
+    transition-duration: 0.2s;
+}
+.yellowbox span{
+    display: flex;
+    align-content: center;
+    color: white;
+    font-size: 50px;
+    align-items: end;
+    padding: 10px;
+
+}
