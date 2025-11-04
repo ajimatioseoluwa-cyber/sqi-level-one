@@ -1,0 +1,203 @@
+.blackbar{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+}
+.blackbar a{
+    color: white;
+}
+.left{
+    width: 300px;
+    height: 100px;
+}
+nav{
+    padding: 20px 40px;
+    display: flex;
+    position: sticky;
+    top: 50px;
+}
+.right{
+    display: flex;
+    gap: 50px;
+}
+.sign-up button{
+    padding: 8px 25px;
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+    border: 3px solid green;
+    opacity: 0.7;
+}
+.login button{
+    padding: 8px 25px;
+    border: 3px solid green;
+    color: green;
+    background-color: white;
+    border-radius: 5px;
+}
+.loginbar{
+    display: flex;
+    gap: 10px;
+}
+.businessdiv{
+    width: 500px;
+    height: 32rem;
+    background-color: #f2f2f2;
+    border-radius: 20px;
+    display: none;
+    position: relative;
+    margin-bottom: 10px;
+    
+}
+.business:hover .businessdiv{
+    display: block;
+    position: absolute;
+}
+.businessinner{
+    display: flex;
+    color: black;
+    margin: 30px;
+    gap: 20px;
+    padding: 5px 30px;
+}
+.businessinner img{
+    width: 40px;
+    height: 40px;
+}
+.businessinner span{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+}
+.businessinner:hover{
+    background-color: antiquewhite;
+    border-radius: 20px;
+}
+.business:hover, .pricing:hover, .learn:hover, .type:hover, .company:hover{
+    background-color: aquamarine;
+    border-radius: 20px;
+    transition-duration: 1s;
+}
+.business, .pricing, .learn, .type, .company {
+    height: 20px;
+    padding: 5px 10px;
+}
+.learndiv{
+    width: 500px;
+    height: 32rem;
+    background-color: #f2f2f2;
+    border-radius: 20px;
+    display: none;
+    position: relative;
+    margin-bottom: 10px;
+}
+.learn:hover .learndiv{
+    display: block;
+    position: absolute;
+}
+.learninner{
+    display: flex;
+    color: black;
+    margin: 30px;
+    gap: 20px;
+    padding: 5px 30px;
+}
+.learninner img{
+    width: 40px;
+    height: 40px;
+}
+.learninner span{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+}
+.learninner:hover{
+    background-color: antiquewhite;
+    border-radius: 20px;}
+.typediv{
+    width: 500px;
+    height: 25rem;
+    background-color: #f2f2f2;
+    border-radius: 20px;
+    display: none;
+    position: relative;
+    margin-bottom: 10px;
+}
+.type:hover .typediv{
+    display: block;
+    position: absolute;
+}
+.typeinner{
+    display: flex;
+    color: black;
+    margin: 30px;
+    gap: 20px;
+    padding: 5px 30px;
+}
+.typeinner img{
+    width: 40px;
+    height: 40px;
+}
+.typeinner span{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+}
+.typeinner:hover{
+    background-color: antiquewhite;
+    border-radius: 20px;}
+.companydiv{
+    width: 400px;
+    height: 15rem;
+    background-color: #f2f2f2;
+    border-radius: 20px;
+    display: none;
+    position: relative;
+    margin-bottom: 20px;
+    margin-left: -90px;
+}
+.company:hover .companydiv{
+    display: block;
+    position: absolute;
+}
+.companyinner{
+    display: flex;
+    color: black;
+    margin: 30px;
+    gap: 20px;
+    padding: 5px 15px;
+}
+.companyinner img{
+    width: 40px;
+    height: 40px;
+}
+.companyinner span{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+}
+.companyinner:hover{
+    background-color: antiquewhite;
+    border-radius: 20px;}
+   
+
+.business:hover .business-arrowdown{
+        transform: rotate(180deg);
+        transition-duration: 1s;
+    }
+.learn:hover .learn-arrowdown{
+        transform: rotate(180deg);
+        transition-duration: 1s;
+    }
+.type:hover .type-arrowdown{
+        transform: rotate(180deg);
+        transition-duration: 1s;
+    }
+.company:hover .company-arrowdown{
+        transform: rotate(180deg);
+        transition-duration: 1s;
+    }
+    .sign-up button:hover{
+        opacity: 1;
+    }
+    body{
+        height:1000vh;
+    }

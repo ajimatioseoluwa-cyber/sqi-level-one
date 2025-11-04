@@ -1,0 +1,92 @@
+.left{
+    display: flex;
+    align-items: center;
+    padding: 10px 2rem;
+    gap: 20px;
+}
+.left img{
+    width: 10rem;
+    height: 3rem;
+    cursor: pointer;
+}
+.left img:hover{
+    transform: scale(1.2);
+    transition-duration: 1s;
+}
+.searchbar img{
+    width: 20px;
+    height: 20px;
+}
+.searchbar{
+    display: flex;
+    background-color: #f8f8f8;
+    padding: 10px ;
+    border-radius: 8px;
+    opacity: 0.5;
+}
+.searchbar:hover{
+    border: 1px solid blue;
+    transition-duration: 0.5s;
+}
+.search-border{
+    border-radius: 5px;
+    border: 1px solid grey;
+    padding: 1px;
+
+}
+.searchbar-tex{
+    gap: 10px;
+    display: flex;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+.right{
+    display: flex;
+    gap: 20px;
+}
+.right-text span{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+    opacity: 0.4;
+    gap: 10px;
+    /* justify-content: space-evenly; */
+    /* display: flex; */
+}
+.right-text span:hover{
+    color: blue;
+}
+.day{
+    border-left: 2px solid gray;
+    border-right: 2px solid  grey;
+    width: 50px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.day-pill img{
+width: 20px;
+height: 20px;
+margin-left: 10px;
+}
+.day-pill{
+    background-color: #eff0f3;
+    border-radius: 20px;
+    padding: 0px 10px;
+    width: 20px;
+    height: 20px;
+}
+.right img{
+    width: 20px;
+    height: 20px;
+    align-items: center;
+    opacity: 0.7;
+}
+.right img:hover{
+    opacity: 1;
+}
+.searchbar, .right-text, .day-pill, .right img{
+    cursor: pointer;
+}
